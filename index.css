@@ -1,0 +1,146 @@
+
+
+body {
+    background-color: #7e7e7e23;
+    margin: auto;
+}
+.bg{
+    margin:auto;
+    position: relative;
+    height: 700px;
+    width: 1500px;
+    background-color: white;
+}
+
+.nav {
+    height: 100px;
+    width: 1500px;
+    margin:auto;
+    position: relative;
+    background-color: rgb(57, 58, 61);
+    
+  
+}
+.logo img {
+    position: absolute;
+    left:10px;
+    height: 100px;
+
+}
+.name{
+    position: absolute;
+    left:130px;
+    padding-top: 8px;
+    color:white;
+}
+.menu {
+    position: absolute;
+    left:1060px;
+    padding-top: 40px;
+}
+.menu>li {
+    display: inline-block;
+    font-size: 20px;
+    padding-left: 30px;
+}
+a {
+    text-decoration: none;
+}
+a:link {
+    color: rgb(187, 187, 187);
+}
+a:visited {
+    color: rgb(187, 187, 187);
+}
+
+a:hover {
+    color: white;
+}
+
+a:active {
+    color: white;
+}
+
+
+/* 热点图样式 */
+.banner {
+    position:relative;
+    overflow:hidden;
+    margin:10px auto;
+    width:1500px;
+    height:550px;
+}
+.banner ul{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+.hot{
+    position:absolute;
+    top:0;
+    left:0;
+}
+.hot li{
+    float:left;
+}
+/* 小圆点样式 */
+.dot{
+    position:absolute;
+    bottom:10px;
+    width:100%;
+    text-align:center;
+    font-size:0;
+}
+.dot li{
+    display:block;
+    display:inline-block;
+    margin:0 5px;
+    width:15px;
+    height:15px;
+    border-radius:100%;
+    background:rgba(145,144,144,.5);
+    cursor:pointer;
+}
+.dot .on{
+    background-color:#fff;
+}
+/* 左右翻页箭头样式 */
+.arrow{
+    display:none;
+}
+.arrow span{
+    display:block;
+    width:50px;
+    height:100px;
+    background:rgba(0,0,0,.6);
+    color:#fff;
+    text-align:center;
+    font-size:40px;
+    line-height:100px;
+    cursor:pointer;
+}
+.arrow .prev{
+    position:absolute;
+    top:50%;left:0;
+    margin-top:-50px;
+}
+.arrow .next{
+    position:absolute;
+    top:50%;right:0;
+    margin-top:-50px;
+}
+.num{
+    height: 30px;
+    width: 1500px;
+    margin:auto;
+    position: relative;
+    background-color: rgb(57, 58, 61);
+}
+.num>li{
+    color:rgb(187, 187, 187);
+    padding-top: 4px;
+    position: relative;
+    left:650px;
+    display: inline-block;
+    font-size: 15px;
+}
