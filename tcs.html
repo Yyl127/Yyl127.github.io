@@ -15,7 +15,7 @@
         
         .main {
             width: 1000px;
-            height: 700px;
+            height: 600px;
             margin: 50px auto;
         }
         
@@ -27,7 +27,7 @@
         .map {
             position: relative;
             width: 1000px;
-            height: 700px;
+            height: 600px;
             background: rgba(232, 240, 215, 0.918);
         }
     </style>
@@ -121,7 +121,7 @@
                             break;
                     }
                     // 判断是否出界,一蛇头判断,出界的话，
-                    if (this.body[0].x < 0 || this.body[0].x > 99 || this.body[0].y < 0 || this.body[0].y > 69) {
+                    if (this.body[0].x < 0 || this.body[0].x > 99 || this.body[0].y < 0 || this.body[0].y > 59) {
                         clearInterval(timer); // 清除定时器，
                         alert("游戏结束！共吃到：" + num);
                         // 删除旧的
@@ -225,7 +225,7 @@
                     f.style.borderRadius = '50%';
                     f.style.position = 'absolute';
                     this.x = Math.floor(Math.random() * 100);
-                    this.y = Math.floor(Math.random() * 70);
+                    this.y = Math.floor(Math.random() * 60);
                     f.style.left = this.x * this.width + 'px';
                     f.style.top = this.y * this.height + 'px';
                     map.appendChild(f);
